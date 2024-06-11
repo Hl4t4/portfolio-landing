@@ -1,0 +1,341 @@
+{"es": 
+    {
+        "landing": {
+            "resume": "Orientado a aprender y aplicar nuevas ideas. Capaz de concentrarse en actividades por periodos considerables de tiempo para resolver problemas.",
+            "about": "Me gusta aprender, las ciencias, la tecnología, los juegos que requieran pensar en una estrategia, ya sean de tablero o videojuegos."
+        },
+        "experiences": [
+            {
+                "id": 1,
+                "job": "Soporte TI",
+                "company": "Estudio Jurídico Pérez Donoso",
+                "location": "Santiago",
+                "date": "2010-2023",
+                "description": "Configuración y mantención de equipos, páginas web, DNS y correos."
+            },
+            {
+                "id": 2,
+                "job": "Soporte TI",
+                "company": "Exportadora Dryfrut LTDA.",
+                "location": "Santiago",
+                "date": "2013-2023",
+                "description": "Configuración y mantención de equipos, páginas web, DNS y correos."
+            },
+            {
+                "id": 3,
+                "job": "Soporte TI",
+                "company": "Centro de Estudios del Trabajo",
+                "location": "Santiago",
+                "date": "2017-2023",
+                "description": "Configuración y mantención de equipos y correos."
+            }
+        ],
+        "projects": [
+            {
+                "id": 1,
+                "name": "Sistema de Gestión de Dryfrut",
+                "github": "PRIVATE",
+                "url": "PRIVATE",
+                "screenshots": ["url1", "url2"],
+                "year": 2018,
+                "description": "Sistema de gestión de compra, procesamiento, cambio, embalaje y exportación de frutos secos que busca centralizar toda la información de la empresa.",
+                "tags": [
+                    "VueJS", "Vuetify", "Javascript", "NodeJS", "MongoDB", "Mongoose"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Desafio Latam - Ricomida",
+                "github": "https://github.com/Hl4t4/test-html-bootstrap-jquery-01",
+                "url": "https://hl4t4.github.io/test-html-bootstrap-jquery-01/",
+                "screenshots": ["url1", "url2"],
+                "year": 2024,
+                "description": "Landing page para una pizzeria, usando elementos interactivos y reactivos.",
+                "tags": [
+                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Desafio Latam - Viajes Chile",
+                "github": "https://github.com/Hl4t4/test-viajeschile-html-bootstrap-jquery",
+                "url": "https://hl4t4.github.io/test-viajeschile-html-bootstrap-jquery/",
+                "screenshots": ["url1", "url2"],
+                "year": 2024,
+                "description": "Landing page para una empresa de viajes, usando elementos interactivos y reactivos.",
+                "tags": [
+                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Desafio Latam - Onlyflans",
+                "github": "https://github.com/Hl4t4/desafiolatam-onlyflans",
+                "url": "https://hlata.pythonanywhere.com/",
+                "screenshots": ["url1", "url2"],
+                "year": 2024,
+                "description": "Sitio para compartir recetas de flanes entre usuarios, verificando la autentificación de usuario y sus funciones en el sitio. Montado en los servidores de Python Everywhere",
+                "tags": [
+                    "Django", "Python", "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Desafio Latam - Inmuebles Kristen",
+                "github": "https://github.com/Hl4t4/desafiolatam-inmuebles",
+                "url": "https://www.inmuebleskristen.shop/",
+                "screenshots": ["url1", "url2"],
+                "year": 2024,
+                "description": "Sitio web para el arriendo de inmuebles entre arrendadores y arrendatarios, con CRUD, manejo de solicitudes de arriendo, autentificación, decorators, validators, activación de cuentas y recuperación de cuentas por correo. Montado en un servidor en linode, usando Debian como SO, ufw y linode firewall para firewalls, gunicorn para mantener el servicio funcionando, nginx como reverse proxy y web server, además de cloudfare como DNS y protección DDoS.",
+                "tags": [
+                    "Django", "Python", "HTML", "CSS", "JQuery", "Bootstrap", "Javascript", "Linode", "Gunicorn", "Nginx", "Cloudfare"
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Scrapper for roms",
+                "github": "https://github.com/Hl4t4/archive.org-roms-downloader",
+                "url": "NONE",
+                "screenshots": ["url1", "url2"],
+                "year": 2024,
+                "description": "Proyecto en proceso para la descarga y compresión de roms desde archive.org y otros sitios. Prontamente con GUI.",
+                "tags": [
+                    "Python", "CHDMAN"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "id": 1,
+                "institution": "Universidad de Santiago de Chile",
+                "title": "Ingeniero Civil en Informática",
+                "location": "Chile",
+                "graduation_date": 2023,
+                "description": "Estudio de una amplia área de informática, desde bases como compiladores y lenguajes formales, pasando por captación de requerimientos, algoritmos avanzados, llegando a machine learning y big data."
+            },
+            {
+                "id": 2,
+                "institution": "Academía Desafio Latam",
+                "title": "Desarrollo Full-Stack Django",
+                "location": "Chile",
+                "graduation_date": 2024,
+                "description": "Realización de diversos proyectos de Desarrollo con Javascript, HTML, PostgresQL, Git, entre otros."
+            }
+        ],
+        "languages": [
+            {
+                "id": 1,
+                "language": "Español",
+                "level": "Nativo - Chile",
+                "certification": "None"
+            },
+            {
+                "id": 2,
+                "language": "English",
+                "level": "Advanced (C2)",
+                "certification": "https://cert.efset.org/JqQote"
+            }
+        ],
+        "courses": [
+            {
+                "id": 1,
+                "name": "Responsive Web Design Certification",
+                "institution": "freeCodeCamp",
+                "year": 2024
+            }
+        ],
+        "contact": [
+            {
+                "id": 1,
+                "type": "Email",
+                "img": "https://img.shields.io/badge/LinkedIn-Jose_Latapiatt-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010",
+                "account": "jose.latapiatt@proton.me",
+                "url": "mailto:jose.latapiatt@proton.me"
+            },
+            {
+                "id": 2,
+                "type": "Linkedin",
+                "img": "https://img.shields.io/badge/Email-Jose.Latapiatt@Proton.me-6D4AFF?style=for-the-badge&logo=proton&logoColor=white&labelColor=101010",
+                "account": "Jose Latapiatt",
+                "url": "https://www.linkedin.com/in/jose-latapiatt/"
+            },
+            {
+                "id": 3,
+                "type": "Github",
+                "img": "https://img.shields.io/badge/Github-Hl4t4-FFAC1C?style=for-the-badge&logo=github&logoColor=white&labelColor=101010",
+                "account": "Hl4t4 <jose.latapiatt@proton.me>",
+                "url": "https://github.com/Hl4t4"
+            }
+        ]
+    },
+"en": 
+    {
+        "landing": {
+            "resume": "Enthusiastic learner with a strong focus on problem-solving.",
+            "about": "Passionate about science and adept at analytical thinking, whether in board games or video games."
+        },
+        "experiences": [
+            {
+                "id": 1,
+                "job": "IT Support",
+                "company": "Estudio Jurídico Pérez Donoso",
+                "location": "Santiago",
+                "date": "2010-2023",
+                "description": "Configurations and maintenance of PCs, web pages, DNS and emails."
+            },
+            {
+                "id": 2,
+                "job": "IT Support",
+                "company": "Exportadora Dryfrut LTDA.",
+                "location": "Santiago",
+                "date": "2013-2023",
+                "description": "Configurations and maintenance of PCs, web pages, DNS and emails."
+            },
+            {
+                "id": 3,
+                "job": "IT Support",
+                "company": "Centro de Estudios del Trabajo",
+                "location": "Santiago",
+                "date": "2017-2023",
+                "description": "System configurations and maintenance of computers and emails."
+            }
+        ],
+        "projects": [
+            {
+                "id": 1,
+                "name": "Dryfrut's Management System",
+                "github": "PRIVATE",
+                "url": "PRIVATE",
+                "screenshots": ["url1", "url2"],
+                "year": 2018,
+                "description": "Management system for buying, proccessing, exchanging, packaging and exporting dried fruits, which seeks to compile all the data from the company.",
+                "tags": [
+                    "VueJS", "Vuetify", "Javascript", "NodeJS", "MongoDB", "Mongoose"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Desafio Latam - Ricomida",
+                "github": "https://github.com/Hl4t4/test-html-bootstrap-jquery-01",
+                "url": "https://hl4t4.github.io/test-html-bootstrap-jquery-01/",
+                "screenshots": ["url1", "url2"],
+                "year": 2024,
+                "description": "Landing page for a pizzeria using interactive and reactive components.",
+                "tags": [
+                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Desafio Latam - Viajes Chile",
+                "github": "https://github.com/Hl4t4/test-viajeschile-html-bootstrap-jquery",
+                "url": "https://hl4t4.github.io/test-viajeschile-html-bootstrap-jquery/",
+                "screenshots": ["url1", "url2"],
+                "year": 2024,
+                "description": "Landing page for a turism company using interactive and reactive components.",
+                "tags": [
+                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Desafio Latam - Onlyflans",
+                "github": "https://github.com/Hl4t4/desafiolatam-onlyflans",
+                "url": "https://hlata.pythonanywhere.com/",
+                "screenshots": ["url1", "url2"],
+                "year": 2024,
+                "description": "Site about sharing recepees for flans between users. With user authentication and their respective functions in the site. Mounted in a Python Everywhere server.",
+                "tags": [
+                    "Django", "Python", "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Desafio Latam - Inmuebles Kristen",
+                "github": "https://github.com/Hl4t4/desafiolatam-inmuebles",
+                "url": "https://www.inmuebleskristen.shop/",
+                "screenshots": ["url1", "url2"],
+                "year": 2024,
+                "description": "Site about renting real state, with renter and rentee users. It has a complete CRUD, it manages renting applications, authentification, validators, decorators, user activation and recovery through emails. It is mounted on a linode server, using Debian as OS, ufw and linode firewall as firewalls, gunicorn for service uptime, nginx as reverse proxy and webserver and cloudfare as DNS and DDoS protection.",
+                "tags": [
+                    "Django", "Python", "HTML", "CSS", "JQuery", "Bootstrap", "Javascript", "Linode", "Gunicorn", "Nginx", "Cloudfare"
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Scrapper for roms",
+                "github": "https://github.com/Hl4t4/archive.org-roms-downloader",
+                "url": "NONE",
+                "screenshots": ["url1", "url2"],
+                "year": 2024,
+                "description": "Project in progress to download and compress roms from archive.org and other sites. Coming soon a GUI.",
+                "tags": [
+                    "Python", "CHDMAN"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "id": 1,
+                "institution": "Universidad de Santiago de Chile",
+                "title": "Ingeniero Civil en Informática",
+                "location": "Chile",
+                "graduation_date": 2023,
+                "description": "Ample study in multiple areas of computer science and engineering. Going from compilers, formal languages, requirement engineering, advanced algorithms, machine learning and big data."
+            },
+            {
+                "id": 2,
+                "institution": "Academía Desafio Latam",
+                "title": "Desarrollo Full-Stack Django",
+                "location": "Chile",
+                "graduation_date": 2024,
+                "description": "Multiple projects using Javascript, HTML, PostgresQL, Django, Git, JQuery and Bootstrap."
+            }
+        ],
+        "languages": [
+            {
+                "id": 1,
+                "language": "Español",
+                "level": "Native - Chile",
+                "certification": "None"
+            },
+            {
+                "id": 2,
+                "language": "English",
+                "level": "Advanced (C2)",
+                "certification": "https://cert.efset.org/JqQote"
+            }
+        ],
+        "courses": [
+            {
+                "id": 1,
+                "name": "Responsive Web Design Certification",
+                "institution": "freeCodeCamp",
+                "year": 2024
+            }
+        ],
+        "contact": [
+            {
+                "id": 1,
+                "type": "Email",
+                "img": "https://img.shields.io/badge/LinkedIn-Jose_Latapiatt-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010",
+                "account": "jose.latapiatt@proton.me",
+                "url": "mailto:jose.latapiatt@proton.me"
+            },
+            {
+                "id": 2,
+                "type": "Linkedin",
+                "img": "https://img.shields.io/badge/Email-Jose.Latapiatt@Proton.me-6D4AFF?style=for-the-badge&logo=proton&logoColor=white&labelColor=101010",
+                "account": "Jose Latapiatt",
+                "url": "https://www.linkedin.com/in/jose-latapiatt/"
+            },
+            {
+                "id": 3,
+                "type": "Github",
+                "img": "https://img.shields.io/badge/Github-Hl4t4-FFAC1C?style=for-the-badge&logo=github&logoColor=white&labelColor=101010",
+                "account": "Hl4t4 <jose.latapiatt@proton.me>",
+                "url": "https://github.com/Hl4t4"
+            }
+        ]
+    }
+}
