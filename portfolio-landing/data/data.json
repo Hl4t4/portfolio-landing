@@ -147,17 +147,17 @@
         "contact": [
             {
                 "id": 1,
-                "type": "Email",
+                "type": "Linkedin",
                 "img": "https://img.shields.io/badge/LinkedIn-Jose_Latapiatt-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010",
-                "account": "jose.latapiatt@proton.me",
-                "url": "mailto:jose.latapiatt@proton.me"
+                "account": "Jose Latapiatt",
+                "url": "https://www.linkedin.com/in/jose-latapiatt/"
             },
             {
                 "id": 2,
-                "type": "Linkedin",
+                "type": "Email",
                 "img": "https://img.shields.io/badge/Email-Jose.Latapiatt@Proton.me-6D4AFF?style=for-the-badge&logo=proton&logoColor=white&labelColor=101010",
-                "account": "Jose Latapiatt",
-                "url": "https://www.linkedin.com/in/jose-latapiatt/"
+                "account": "jose.latapiatt@proton.me",
+                "url": "mailto:jose.latapiatt@proton.me"
             },
             {
                 "id": 3,

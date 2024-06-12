@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="forest">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className + " m-0 p-0"}>{children}</body>
     </html>
   );
 }
+
+// Add Header and footer here
