@@ -19,7 +19,7 @@ const HeroPage: React.FC<HeroPageProps> = ({ landing, style }) => {
         self-center '>
           <h1 className='w-full text-4xl lg:text-8xl text-center '>JOSÉ LATAPIATT</h1>
         </div>
-        <div className='group-hover h-auto  
+        <div className='group-hover h-auto
         row-span-1 row-start-2 
         col-span-1 col-start-1 lg:col-span-4 lg:col-start-3'>
           <figure className='group relative w-60 h-70 mx-auto'>

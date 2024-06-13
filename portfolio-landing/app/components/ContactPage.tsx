@@ -109,9 +109,11 @@ const ContactPage: React.FC<ContactPageProps> = ({ contacts, style }) => {
                     </div>
                     
                     {contacts.map((contact, index) => (
-                        <div className={isVisible3 ? 'grid' : 'hidden'}>
-                            <ContactItem key={contact.id} contact={contact} time={times[index]}></ContactItem>
-                        </div>
+                        <React.Fragment key={contact.id}>
+                            <div className={isVisible3 ? 'grid' : 'hidden'}>
+                                <ContactItem contact={contact} time={times[index]}></ContactItem>
+                            </div>
+                        </React.Fragment>
                     ))}
                     <div className={"chat chat-end " + (isVisible6 ? 'grid' : 'hidden')}>
                         <div className="chat-image avatar">
