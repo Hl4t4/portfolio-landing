@@ -15,7 +15,7 @@ import { Locale } from './interfaces/Locale';
 import { Root } from './interfaces/Root';
 
 export default function Home() {
-  const root: Root = getContentData()
+  const root: Root = getContentData('data.json')
   const locale: Locale = root.es
   const landing: Landing = locale.landing
   const contacts: Contact[] = locale.contact

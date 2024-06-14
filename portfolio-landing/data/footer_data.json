@@ -1,0 +1,82 @@
+{
+    "es": {
+        "text": "Este sitio fue contruido usando las siguientes tecnologias: ",
+        "tags": [
+            {
+                "name": "NextJS",
+                "url": "https://nextjs.org/",
+                "description1": "Un framework de React para crear aplicaciones web rápidas y optimizadas para SEO.",
+                "description2": "Simplifica el enrutamiento, la obtención de datos y el renderizado del lado del servidor.",
+                "description3": "Ideal para crear experiencias web dinámicas y escalables."
+            },
+            {
+                "name": "NodeJS",
+                "url": "https://nodejs.org/",
+                "description1": "Un entorno de ejecución de JavaScript de código abierto para crear aplicaciones del lado del servidor.",
+                "description2": "Te permite ejecutar código JavaScript fuera de un navegador web.",
+                "description3": "Popular para construir APIs, microservicios y aplicaciones en tiempo real."
+            },
+            {
+                "name": "TypeScript",
+                "url": "https://www.typescriptlang.org/",
+                "description1": "Un superconjunto de JavaScript que agrega tipado estático opcional.",
+                "description2": "Mejora la legibilidad del código, la mantenibilidad y ayuda a detectar errores tempranamente.",
+                "description3": "Ampliamente adoptado para aplicaciones web a gran escala y proyectos complejos."
+            },
+            {
+                "name": "TailwindCSS",
+                "url": "https://tailwindcss.com/",
+                "description1": "Un framework CSS basado en utilidades para construir diseños personalizados rápidamente.",
+                "description2": "Proporciona clases predefinidas para estilos comunes como espaciado, tipografía y colores.",
+                "description3": "Ofrece una gran flexibilidad y personalización para los desarrolladores."
+            },
+            {
+                "name": "DaisyUI",
+                "url": "https://daisyui.com/",
+                "description1": "Una biblioteca de componentes de interfaz de usuario modular y personalizable construida sobre Tailwind CSS.",
+                "description2": "Ofrece componentes preconstruidos como botones, formularios y tarjetas para un proceso de desarrollo más rápido.",
+                "description3": "Diseñado para crear interfaces de usuario hermosas y receptivas."
+            }
+        ]
+    },
+    "en": {
+        "text": "This site was made with the following technologies: ",
+        "tags": [
+            {
+                "name": "NextJS",
+                "url": "https://nextjs.org/",
+                "description1": "A React framework for building fast and SEO-friendly web applications.",
+                "description2": "Simplifies routing, data fetching, and server-side rendering.",
+                "description3": "Ideal for creating dynamic and scalable web experiences."
+            },
+            {
+                "name": "NodeJS",
+                "url": "https://nodejs.org/",
+                "description1": "An open-source JavaScript runtime environment for building server-side applications.",
+                "description2": "Allows you to execute JavaScript code outside of a web browser.",
+                "description3": "Popular for building APIs, microservices, and real-time applications."
+            },
+            {
+                "name": "TypeScript",
+                "url": "https://www.typescriptlang.org/",
+                "description1": "A superset of JavaScript that adds optional static typing.",
+                "description2": "Improves code readability, maintainability, and helps catch errors early.",
+                "description3": "Widely adopted for large-scale web applications and complex projects."
+            },
+            {
+                "name": "TailwindCSS",
+                "url": "https://tailwindcss.com/",
+                "description1": "A utility-first CSS framework for rapidly building custom designs.",
+                "description2": "Provides pre-built classes for common styles like spacing, typography, and colors.",
+                "description3": "Offers great flexibility and customization for developers."
+            },
+            {
+                "name": "DaisyUI",
+                "url": "https://daisyui.com/",
+                "description1": "A modular and customizable UI component library built on Tailwind CSS.",
+                "description2": "Offers pre-built components like buttons, forms, and cards for a faster development process.",
+                "description3": "Designed for building beautiful and responsive user interfaces."
+            }
+        ]
+    }
+}

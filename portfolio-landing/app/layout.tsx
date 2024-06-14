@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import NavbarPage from './components/NavbarPage';
+import FooterPage from './components/FooterPage';
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -16,7 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="forest">
-      <body className={inter.className + " m-0 p-0"}>{children}</body>
+      <body className={inter.className + " m-0 p-0"}>
+        <NavbarPage></NavbarPage>
+        <div>
+          {children}
+        </div>
+        <FooterPage></FooterPage>
+      </body>
     </html>
   );
 }

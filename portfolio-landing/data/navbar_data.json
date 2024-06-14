@@ -1,0 +1,22 @@
+{
+    "es": {
+        "name": "Porfatolio de José Latapiatt",
+        "home": "Inicio",
+        "contact": "Contacto",
+        "education": "Educacion",
+        "experiences": "Experiencias",
+        "projects": "Proyectos",
+        "languages": "Lenguajes",
+        "courses": "Cursos"
+    },
+    "en": {
+        "name": "José Latapiatt's Porfatolio",
+        "home": "Home",
+        "contact": "Contact",
+        "education": "Education",
+        "experiences": "Experiencies",
+        "projects": "Projects",
+        "languages": "Lenguages",
+        "courses": "Courses"
+    }
+}
