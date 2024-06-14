@@ -1,4 +1,5 @@
 import React, { CSSProperties } from 'react'
+import Image from 'next/image'
 import { Landing } from '../interfaces/Landing';
 
 interface HeroPageProps {
@@ -25,8 +26,8 @@ const HeroPage: React.FC<HeroPageProps> = ({ landing, style }) => {
           row-span-1 row-start-2 
           col-span-1 col-start-1 lg:col-span-4 lg:col-start-3'>
             <figure className='group relative w-60 h-70 mx-auto'>
-              <img src="/img/self.webp" alt="Profile" className="w-60 h-70 rounded-full object-cover transition-opacity duration-300 ease-in-out group-hover:opacity-0"/>
-              <img src="/img/wojak.webp" alt="Profile" className="h-full rounded-full object-cover absolute top-0 left-0 transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100"/>
+              <Image src="/img/self.webp" alt="Profile" className="w-60 h-70 rounded-full object-cover transition-opacity duration-300 ease-in-out group-hover:opacity-0"/>
+              <Image src="/img/wojak.webp" alt="Profile" className="h-full rounded-full object-cover absolute top-0 left-0 transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100"/>
               </figure>
           </div>
           <div className="shadow-md rounded p-6 max-w-lg w-full h-full  

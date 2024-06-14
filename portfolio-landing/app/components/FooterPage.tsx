@@ -16,7 +16,7 @@ const FooterPage = () => {
                         <ul className="col-span-12 lg:col-span-9 justify-center lg:justify-end flex pt-5 lg:pt-0">
                             <div className='grid sm:grid md:grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-none lg:flex '>
                                 {data.tags.map((tag, index) => (
-                                    <div className="tooltip tooltip-top md:toopltip-right lg:tooltip-left " data-tip={tag.description1 + '\n' + tag.description2 + '\n' + tag.description3}>
+                                    <div key={tag.name + index} className="tooltip tooltip-top md:toopltip-right lg:tooltip-left " data-tip={tag.description1 + '\n' + tag.description2 + '\n' + tag.description3}>
                                         <li key={"footer-button-" + index}>
                                             <a href={tag.url}>
                                                 <button className='btn btn-primary max-w-fit ml-3'>
