@@ -8,11 +8,13 @@ interface LanguagesPageProps {
 
 const LanguagesPage: React.FC<LanguagesPageProps> = ({ languages }) => {
     return (
-        <div>
-            <h1 className='w-full text-4xl text-center font-mono italic text-neutral'>Lenguajes</h1>
-            {languages.map(language => (
-                <LanguageItem key={language.id} language={language}></LanguageItem>
-            ))}
+        <div id='languages' className=''>
+            <div className='w-fit p-2  text-4xl font-mono italic text-neutral bg-neutral-content bg-opacity-80 rounded-box m-auto mb-2'>Lenguajes</div>
+            <div className='stats stats-vertical lg:stats-horizontal shadow'>
+                {languages.map(language => (
+                    <LanguageItem key={language.id} language={language}></LanguageItem>
+                ))}
+            </div>
         </div>
     )
 }

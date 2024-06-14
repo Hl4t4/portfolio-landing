@@ -3,4 +3,5 @@ export interface Languages {
     language: string;
     level: string;
     certification: string;
+    certification_url: string;
 }

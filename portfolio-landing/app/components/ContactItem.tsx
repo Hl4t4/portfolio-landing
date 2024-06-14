@@ -11,7 +11,7 @@ const ContactItem: React.FC<ContactItemProps> = ({ contact, time }) => {
     <div className="chat chat-start">
         <div className="chat-image avatar">
             <div className="w-10 rounded-full">
-                <img alt="Imagen de perfil" src="/self.jpg" />
+                <img alt="Imagen de perfil" src="/img/self.webp" />
             </div>
         </div>
         <div className="chat-header">

@@ -7,8 +7,15 @@ interface LanguageItemProps {
 
 const LanguageItem: React.FC<LanguageItemProps> = ({ language }) => {
     return (
-        <div>
-        
+        <div className='stat'>
+            <div className='stat-figure'>
+                <div className='rounded-full'>
+                    <figure><img src={"/img/flags/" + "/flag-"+language.id+".webp"} className="max-w-32" /></figure>
+                </div>
+            </div>
+            <h2 className='stat-title text-3xl'>{language.language}</h2>
+            <h3 className='stat-value text-primary '>{language.level}</h3>
+            <h4 className='stat-desc text-2xl'><a href={language.certification_url}>{language.certification}</a></h4>
         </div>
     )
 }

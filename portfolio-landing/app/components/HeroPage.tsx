@@ -8,7 +8,7 @@ interface HeroPageProps {
 
 const HeroPage: React.FC<HeroPageProps> = ({ landing, style }) => {
   return (
-    <div className='card w-100' style={style}>
+    <div id='home' className='card w-100' style={style}>
       <div className="card-body glass [--glass-blur:3px] 
       grid grid-dense grid-rows-[max-content_1fr]
       grid-cols-1 lg:grid-cols-12 
@@ -23,8 +23,8 @@ const HeroPage: React.FC<HeroPageProps> = ({ landing, style }) => {
         row-span-1 row-start-2 
         col-span-1 col-start-1 lg:col-span-4 lg:col-start-3'>
           <figure className='group relative w-60 h-70 mx-auto'>
-            <img src="/self.jpg" alt="Profile" className="w-60 h-70 rounded-full object-cover transition-opacity duration-300 ease-in-out group-hover:opacity-0"/>
-            <img src="/wojak.png" alt="Profile" className="h-full rounded-full object-cover absolute top-0 left-0 transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100"/>
+            <img src="/img/self.webp" alt="Profile" className="w-60 h-70 rounded-full object-cover transition-opacity duration-300 ease-in-out group-hover:opacity-0"/>
+            <img src="/img/wojak.webp" alt="Profile" className="h-full rounded-full object-cover absolute top-0 left-0 transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100"/>
             </figure>
         </div>
         <div className="shadow-md rounded p-6 max-w-lg w-full h-full  

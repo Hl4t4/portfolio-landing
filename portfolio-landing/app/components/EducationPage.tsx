@@ -9,7 +9,7 @@ interface EducationPageProps {
 
 const EducationPage: React.FC<EducationPageProps> = ({ educations, style }) => {
     return (
-        <div className='relative min-h-full'>
+        <div id='education' className='relative min-h-full'>
             <div className="absolute inset-0 bg-cover bg-no-repeat pt-10 blur-sm" style={style}></div>
             <div className='relative px-5 py-5'>
                 <h1 className='w-full text-4xl text-center font-mono italic text-neutral'>Educación</h1>

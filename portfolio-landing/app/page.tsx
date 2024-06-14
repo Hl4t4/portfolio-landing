@@ -28,19 +28,19 @@ export default function Home() {
   return (
     <div>
       <main>
-        <HeroPage landing={landing} style={{ backgroundImage: 'url("/hero-background.png")' }}></HeroPage>
+        <HeroPage landing={landing} style={{ backgroundImage: 'url("/img/backgrounds/hero-background.webp")' }}></HeroPage>
       </main>
       <section>
-        <ContactPage contacts={contacts} style={{ backgroundImage: 'url("/contact-background.jpeg")' }}></ContactPage>
+        <ContactPage contacts={contacts} style={{ backgroundImage: 'url("/img/backgrounds/contact-background.webp")' }}></ContactPage>
       </section>
       <section>
-        <EducationPlusExperiencePage educations={education} experiences={experiences} education_style={{ backgroundImage: 'url("/experiences-background.jpeg")' }} experiences_style={{ backgroundImage: 'url("/education-background.jpeg")' }}></EducationPlusExperiencePage>
+        <EducationPlusExperiencePage educations={education} experiences={experiences} education_style={{ backgroundImage: 'url("/img/backgrounds/experiences-background.webp")' }} experiences_style={{ backgroundImage: 'url("/img/backgrounds/education-background.webp")' }}></EducationPlusExperiencePage>
       </section>
       <section>
-        <ProjectsPage projects={projects} style={{ backgroundImage: 'url("/projects-background.jpeg")' }}></ProjectsPage>
+        <ProjectsPage projects={projects} style={{ backgroundImage: 'url("/img/backgrounds/projects-background.webp")' }}></ProjectsPage>
       </section>
       <section>
-        <LanguagesPlusCoursesPage languages={languages} courses={courses} style={{ backgroundImage: 'url("/languages-courses-background.jpeg")' }}></LanguagesPlusCoursesPage>
+        <LanguagesPlusCoursesPage languages={languages} courses={courses} style={{ backgroundImage: 'url("/img/backgrounds/languages-courses-background.webp")' }}></LanguagesPlusCoursesPage>
       </section>
     </div>
   );

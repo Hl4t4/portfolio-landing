@@ -73,14 +73,14 @@ const ContactPage: React.FC<ContactPageProps> = ({ contacts, style }) => {
     }, []);
 
     return (
-        <div className='flex justify-center items-center p-10'>
+        <div id='contact' className='flex justify-center items-center p-10'>
             <div className="mockup-phone border border-primary mx-auto min-w-fit w-2/3 ">
                 <div className="camera"></div> 
                 <div className='bg-cover bg-no-repeat display min-h-[1190px] p-7' style={style}>
                     <div className={"chat chat-start " + (isVisible1 ? 'grid' : 'hidden')}>
                         <div className="chat-image avatar">
                             <div className="w-10 rounded-full">
-                                <img alt="Imagen de perfil" src="/self.jpg" />
+                                <img alt="Imagen de perfil" src="/img/self.webp" />
                             </div>
                         </div>
                         <div className="chat-header">

@@ -9,7 +9,7 @@ interface ExperiencesPageProps {
 
 const ExperiencesPage: React.FC<ExperiencesPageProps> = ({ experiences, style }) => {
     return (
-        <div className='relative min-h-full'>
+        <div id='experiences' className='relative min-h-full'>
             <div className="absolute inset-0 bg-cover bg-no-repeat pt-10 blur-sm" style={style}></div>
             <div className="relative px-5 py-5">
                 <h1 className='w-full text-4xl text-center font-mono italic text-neutral'>Experiencia</h1>

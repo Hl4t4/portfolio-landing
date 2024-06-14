@@ -1,5 +1,7 @@
-import React, { CSSProperties } from 'react'
+'use client'
+import React, { CSSProperties, useState } from 'react'
 import ProjectItem from './ProjectItem';
+import ProjectThumbnail from './ProjectThumbnail';
 import { Projects } from '../interfaces/Projects';
 
 interface ProjectsPageProps {
@@ -7,39 +9,41 @@ interface ProjectsPageProps {
     style: CSSProperties;
 }
 
-
 const ProjectsPage: React.FC<ProjectsPageProps> = ({ projects, style }) => {
+    const [isHovered, setIsHovered] = useState(false);
+
+    const handleMouseEnter = () => {
+        setIsHovered(true);
+    };
+
+    const handleMouseLeave = () => {
+        setIsHovered(false);
+    };
+
     return (
-        <div className='relative min-h-full'>
+        <div id='projects' className='relative overflow-hidden'>
             <div className="absolute inset-0 bg-cover bg-no-repeat pt-10 blur-sm" style={style}></div>
             <div className="relative px-5 py-5">
-                <h1 className='w-full text-4xl text-center font-mono italic text-neutral'>Proyectos</h1>
-                <div className="carousel w-full">
-                    <div className="flex justify-center w-full py-2 gap-2">
-                        <a href="#item1" className="carousel-item btn btn-xs">1</a> 
-                        <a href="#item2" className="carousel-item btn btn-xs">2</a> 
-                        <a href="#item3" className="carousel-item btn btn-xs">3</a> 
-                        <a href="#item4" className="carousel-item btn btn-xs">4</a>
+                <div className='w-fit p-2  text-4xl font-mono italic text-neutral-content bg-neutral bg-opacity-70 rounded-box m-auto'>Proyectos</div>
+                <div className="carousel rounded-box snap-x scroll-smooth">
+                    <div className="min-w-max inline-flex flex-nowrap justify-center py-5 overflow-hidden md:[mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+                        <ul className={"flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"+ (isHovered ? ' pause' : '')} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                            {projects.map(project => (
+                                <ProjectThumbnail key = {"thumbnail-" + project.id} project={project}></ProjectThumbnail>
+                            ))}
+                        </ul>
+                        <ul className={"flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"+ (isHovered ? ' pause' : '')} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} aria-hidden="true">
+                            {projects.map(project => (
+                                <ProjectThumbnail key = {"thumbnail-" + project.id} project={project}></ProjectThumbnail>
+                            ))}
+                        </ul>
                     </div>
                 </div>
-                <div className="carousel w-full">
-                    <div id="item1" className="carousel-item w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" className="w-full" />
-                    </div> 
-                    <div id="item2" className="carousel-item w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
-                    </div> 
-                    <div id="item3" className="carousel-item w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full" />
-                    </div> 
-                    <div id="item4" className="carousel-item w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full" />
-                    </div>
-                </div> 
-                
-                {projects.map(project => (
-                    <ProjectItem key={project.id} project={project}></ProjectItem>
-                ))}
+                <div className="carousel max-h-[1080px] overflow-y-hidden flex w-full rounded-box snap-x scroll-smooth">
+                    {projects.map(project => (
+                        <ProjectItem key={'project-' + project.id} project={project} length={projects.length}></ProjectItem>
+                    ))}
+                </div>
             </div>
         </div>
     )
