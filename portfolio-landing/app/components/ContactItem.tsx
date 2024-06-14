@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+
 import { Contact } from '../interfaces/Contact';
 
 interface ContactItemProps {
@@ -21,7 +22,8 @@ const ContactItem: React.FC<ContactItemProps> = ({ contact, time }) => {
         </div>
         <div className="chat-bubble min-w-fit">
             <div className="card bg-base-100 shadow-xl pt-3">
-            <a href={contact.url}><figure><Image src={contact.img} alt={contact.type}/></figure></a>
+            <a href={contact.url}><figure><Image src={'/img/badges/' + contact.img} alt={contact.type}/>
+            </figure></a>
                 <div className="card-body">
                     <h2 className="card-title">{contact.message1}{contact.type}</h2>
                     <p>{contact.message2}{contact.account}</p>

@@ -178,7 +178,7 @@
             {
                 "id": 1,
                 "type": "Linkedin",
-                "img": "https://img.shields.io/badge/LinkedIn-Jose_Latapiatt-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010",
+                "img": "linkedin.webp",
                 "message1": "Contactame por ",
                 "message2": "Mi cuenta es ",
                 "button": "Contactar",
@@ -190,7 +190,7 @@
             {
                 "id": 2,
                 "type": "Email",
-                "img": "https://img.shields.io/badge/Email-Jose.Latapiatt@Proton.me-6D4AFF?style=for-the-badge&logo=proton&logoColor=white&labelColor=101010",
+                "img": "email.webp",
                 "message1": "Contactame por ",
                 "message2": "Mi cuenta es ",
                 "button": "Contactar",
@@ -202,7 +202,7 @@
             {
                 "id": 3,
                 "type": "Github",
-                "img": "https://img.shields.io/badge/Github-Hl4t4-FFAC1C?style=for-the-badge&logo=github&logoColor=white&labelColor=101010",
+                "img": "github.webp",
                 "message1": "Contactame por ",
                 "message2": "Mi cuenta es ",
                 "button": "Contactar",
@@ -392,7 +392,7 @@
             {
                 "id": 1,
                 "type": "Email",
-                "img": "https://img.shields.io/badge/LinkedIn-Jose_Latapiatt-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010",
+                "img": "email.webp",
                 "message1": "Contact me through ",
                 "message2": "My account is ",
                 "button": "Contact",
@@ -404,7 +404,7 @@
             {
                 "id": 2,
                 "type": "Linkedin",
-                "img": "https://img.shields.io/badge/Email-Jose.Latapiatt@Proton.me-6D4AFF?style=for-the-badge&logo=proton&logoColor=white&labelColor=101010",
+                "img": "linkedin.webp",
                 "message1": "Contact me through ",
                 "message2": "My account is ",
                 "button": "Contact",
@@ -416,7 +416,7 @@
             {
                 "id": 3,
                 "type": "Github",
-                "img": "https://img.shields.io/badge/Github-Hl4t4-FFAC1C?style=for-the-badge&logo=github&logoColor=white&labelColor=101010",
+                "img": "github.webp",
                 "message1": "Contact me through ",
                 "message2": "My account is ",
                 "button": "Contact",

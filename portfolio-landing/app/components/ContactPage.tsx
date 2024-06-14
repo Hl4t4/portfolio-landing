@@ -98,7 +98,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ contacts, contact_locale, sty
                     <div className={"chat chat-end " + (isVisible2 ? 'grid' : 'hidden')}>
                         <div className="chat-image avatar">
                             <div className="w-10 rounded-full">
-                                <Image alt="Tailwind CSS chat bubble component" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                <Image alt="Tailwind CSS chat bubble component" src="/img/other.webp" />
                             </div>
                         </div>
                         <div className="chat-header">
@@ -121,7 +121,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ contacts, contact_locale, sty
                     <div className={"chat chat-end " + (isVisible6 ? 'grid' : 'hidden')}>
                         <div className="chat-image avatar">
                             <div className="w-10 rounded-full">
-                                <Image alt="Tailwind CSS chat bubble component" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                <Image alt="Tailwind CSS chat bubble component" src="/img/other.webp" />
                             </div>
                         </div>
                         <div className="chat-header">

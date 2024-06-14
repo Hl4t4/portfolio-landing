@@ -9,7 +9,7 @@ const FooterPage = () => {
 
     return (
         <footer className="footer px-10 py-4 bg-secondary-content text-secondary">
-            <div className='grid grid-rows-12 md:grid-rows-3 lg:grid-rows-2'>
+            <div className='grid grid-rows-12 md:grid-rows-3 w-full lg:grid-rows-2'>
                 <div className='row-span-12 lg:row-span-1 w-full h-fit pt-5'>
                     <div className='grid grid-cols-12'>
                         <p className='col-span-12 lg:col-span-3 text-lg'>{data.text}</p>

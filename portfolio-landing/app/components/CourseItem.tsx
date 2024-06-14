@@ -11,7 +11,7 @@ const CourseItem: React.FC<CourseItemProps> = ({ course }) => {
         <div className='stat'>
             <div className='stat-figure'>
                 <div className='rounded-full'>
-                    <figure><Image src={"/img/courses/" + "/course-"+course.id+".png"} className="max-w-32" alt={course.name}/></figure>
+                    <figure><Image src={"/img/courses/course-"+course.id+".png"} className="max-w-32" alt={course.name}/></figure>
                 </div>
             </div>
             <h2 className='stat-title text-3xl'>{course.institution}</h2>
