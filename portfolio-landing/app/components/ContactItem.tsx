@@ -16,22 +16,22 @@ const ContactItem: React.FC<ContactItemProps> = ({ contact, time }) => {
         </div>
         <div className="chat-header">
             José Latapiatt
-            <time className="text-xs opacity-50" suppressHydrationWarning > {time.toLocaleTimeString('en-US')}</time>
+            <time className="text-xs opacity-50" suppressHydrationWarning > {time.toLocaleTimeString(contact.locale)}</time>
         </div>
         <div className="chat-bubble min-w-fit">
             <div className="card bg-base-100 shadow-xl pt-3">
             <a href={contact.url}><figure><img src={contact.img} alt={contact.type}/></figure></a>
                 <div className="card-body">
-                    <h2 className="card-title">Contactame por {contact.type}</h2>
-                    <p>Mi cuenta es {contact.account}</p>
+                    <h2 className="card-title">{contact.message1}{contact.type}</h2>
+                    <p>{contact.message2}{contact.account}</p>
                     <div className="card-actions justify-end">
-                        <a href={contact.url}><button className="btn btn-primary">Contactar</button></a>
+                        <a href={contact.url}><button className="btn btn-primary">{contact.button}</button></a>
                     </div>
                 </div>
             </div>  
         </div>
         <div className="chat-footer opacity-50">
-            Delivered
+            {contact.delivered}
         </div>
     </div>
   )

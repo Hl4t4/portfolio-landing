@@ -4,15 +4,16 @@ import EducationItem from './EducationItem';
 
 interface EducationPageProps {
     educations: Education[];
+    title: string;
     style: CSSProperties;
 }
 
-const EducationPage: React.FC<EducationPageProps> = ({ educations, style }) => {
+const EducationPage: React.FC<EducationPageProps> = ({ educations, title, style }) => {
     return (
         <div id='education' className='relative min-h-full'>
             <div className="absolute inset-0 bg-cover bg-no-repeat pt-10 blur-sm" style={style}></div>
             <div className='relative px-5 py-5'>
-                <h1 className='w-full text-4xl text-center font-mono italic text-neutral'>Educación</h1>
+                <h1 className='w-full text-4xl text-center font-mono italic text-neutral'>{title}</h1>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     {educations.map((education, index) => (
                         <React.Fragment key={education.id}>

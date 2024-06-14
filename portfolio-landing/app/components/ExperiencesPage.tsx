@@ -4,15 +4,16 @@ import { Experiencies } from '../interfaces/Experiencies';
 
 interface ExperiencesPageProps {
     experiences: Experiencies[];
+    title: string;
     style: CSSProperties;
 }
 
-const ExperiencesPage: React.FC<ExperiencesPageProps> = ({ experiences, style }) => {
+const ExperiencesPage: React.FC<ExperiencesPageProps> = ({ experiences, title, style }) => {
     return (
         <div id='experiences' className='relative min-h-full'>
             <div className="absolute inset-0 bg-cover bg-no-repeat pt-10 blur-sm" style={style}></div>
             <div className="relative px-5 py-5">
-                <h1 className='w-full text-4xl text-center font-mono italic text-neutral'>Experiencia</h1>
+                <h1 className='w-full text-4xl text-center font-mono italic text-neutral'>{title}</h1>
                 {experiences.map(experience => (
                     <ExperienceItem key={experience.id} experience={experience}></ExperienceItem>
                 ))}

@@ -2,7 +2,26 @@
     {
         "landing": {
             "resume": "Orientado a aprender y aplicar nuevas ideas. Capaz de concentrarse en actividades por periodos considerables de tiempo para resolver problemas.",
-            "about": "Me gusta aprender, las ciencias, la tecnología, los juegos que requieran pensar en una estrategia, ya sean de tablero o videojuegos."
+            "resume_title": "Resumen",
+            "about": "Me gusta aprender, las ciencias, la tecnología, los juegos que requieran pensar en una estrategia, ya sean de tablero o videojuegos.",
+            "about_title": "Acerca de Mi"
+        },
+        "titles": {
+            "contact": "Contacto",
+            "education": "Educación",
+            "experiences": "Experiencias",
+            "projects": "Proyectos",
+            "languages": "Lenguajes",
+            "courses": "Cursos"
+        },
+        "contact_locale": {
+            "recipient": "Yo",
+            "locale": "es-CL",
+            "delivered":"Enviado",
+            "seen_at": "Visto a las ",
+            "message1": "¡Hola! ¿Bienvenido te gustaría trabajar conmigo?",
+            "message2": "¡Por supuesto! ¿Cómo te contacto?",
+            "message3": "¡Muchas gracias!"
         },
         "experiences": [
             {
@@ -160,22 +179,37 @@
                 "id": 1,
                 "type": "Linkedin",
                 "img": "https://img.shields.io/badge/LinkedIn-Jose_Latapiatt-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010",
+                "message1": "Contactame por ",
+                "message2": "Mi cuenta es ",
+                "button": "Contactar",
+                "locale": "es-CL",
                 "account": "Jose Latapiatt",
-                "url": "https://www.linkedin.com/in/jose-latapiatt/"
+                "url": "https://www.linkedin.com/in/jose-latapiatt/",
+                "delivered": "Enviado"
             },
             {
                 "id": 2,
                 "type": "Email",
                 "img": "https://img.shields.io/badge/Email-Jose.Latapiatt@Proton.me-6D4AFF?style=for-the-badge&logo=proton&logoColor=white&labelColor=101010",
+                "message1": "Contactame por ",
+                "message2": "Mi cuenta es ",
+                "button": "Contactar",
+                "locale": "es-CL",
                 "account": "jose.latapiatt@proton.me",
-                "url": "mailto:jose.latapiatt@proton.me"
+                "url": "mailto:jose.latapiatt@proton.me",
+                "delivered": "Enviado"
             },
             {
                 "id": 3,
                 "type": "Github",
                 "img": "https://img.shields.io/badge/Github-Hl4t4-FFAC1C?style=for-the-badge&logo=github&logoColor=white&labelColor=101010",
+                "message1": "Contactame por ",
+                "message2": "Mi cuenta es ",
+                "button": "Contactar",
+                "locale": "es-CL",
                 "account": "Hl4t4 <jose.latapiatt@proton.me>",
-                "url": "https://github.com/Hl4t4"
+                "url": "https://github.com/Hl4t4",
+                "delivered": "Enviado"
             }
         ]
     },
@@ -183,7 +217,26 @@
     {
         "landing": {
             "resume": "Enthusiastic learner with a strong focus on problem-solving.",
-            "about": "Passionate about science and adept at analytical thinking, whether in board games or video games."
+            "resume_title": "Summary",
+            "about": "Passionate about science and adept at analytical thinking, whether in board games or video games.",
+            "about_title": "About me"
+        },
+        "titles": {
+            "contact": "Contact",
+            "education": "Education",
+            "experiences": "Experience",
+            "projects": "Projects",
+            "languages": "Languages",
+            "courses": "Courses"
+        },
+        "contact_locale": {
+            "recipient": "Me",
+            "locale": "en-US",
+            "delivered":"Delivered",
+            "seen_at": "Seen at ",
+            "message1": "Hi! Welcome, would you like to work together?",
+            "message2": "Sure! How do i contact you?",
+            "message3": "Thanks a lot!"
         },
         "experiences": [
             {
@@ -340,22 +393,37 @@
                 "id": 1,
                 "type": "Email",
                 "img": "https://img.shields.io/badge/LinkedIn-Jose_Latapiatt-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010",
+                "message1": "Contact me through ",
+                "message2": "My account is ",
+                "button": "Contact",
+                "locale": "en-US",
                 "account": "jose.latapiatt@proton.me",
-                "url": "mailto:jose.latapiatt@proton.me"
+                "url": "mailto:jose.latapiatt@proton.me",
+                "delivered": "Delivered"
             },
             {
                 "id": 2,
                 "type": "Linkedin",
                 "img": "https://img.shields.io/badge/Email-Jose.Latapiatt@Proton.me-6D4AFF?style=for-the-badge&logo=proton&logoColor=white&labelColor=101010",
+                "message1": "Contact me through ",
+                "message2": "My account is ",
+                "button": "Contact",
+                "locale": "en-US",
                 "account": "Jose Latapiatt",
-                "url": "https://www.linkedin.com/in/jose-latapiatt/"
+                "url": "https://www.linkedin.com/in/jose-latapiatt/",
+                "delivered": "Delivered"
             },
             {
                 "id": 3,
                 "type": "Github",
                 "img": "https://img.shields.io/badge/Github-Hl4t4-FFAC1C?style=for-the-badge&logo=github&logoColor=white&labelColor=101010",
+                "message1": "Contact me through ",
+                "message2": "My account is ",
+                "button": "Contact",
+                "locale": "en-US",
                 "account": "Hl4t4 <jose.latapiatt@proton.me>",
-                "url": "https://github.com/Hl4t4"
+                "url": "https://github.com/Hl4t4",
+                "delivered": "Delivered"
             }
         ]
     }

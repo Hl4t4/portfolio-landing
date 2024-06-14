@@ -2,12 +2,14 @@
 import React, { CSSProperties, useState, useEffect }  from 'react'
 import { Contact } from '../interfaces/Contact';
 import ContactItem from './ContactItem';
+import { ContactLocale } from '../interfaces/ContactLocale';
 
 interface ContactPageProps {
     contacts: Contact[];
+    contact_locale: ContactLocale;
     style: CSSProperties;
 }
-const ContactPage: React.FC<ContactPageProps> = ({ contacts, style }) => {
+const ContactPage: React.FC<ContactPageProps> = ({ contacts, contact_locale, style }) => {
     const [isVisible1, setIsVisible1] = useState<boolean>(true);
     const [isVisible2, setIsVisible2] = useState<boolean>(false);
     const [isVisible3, setIsVisible3] = useState<boolean>(false);
@@ -85,11 +87,11 @@ const ContactPage: React.FC<ContactPageProps> = ({ contacts, style }) => {
                         </div>
                         <div className="chat-header">
                             José Latapiatt
-                            <time className="text-xs opacity-50" suppressHydrationWarning > {time1.toLocaleTimeString('en-US')}</time>
+                            <time className="text-xs opacity-50" suppressHydrationWarning > {time1.toLocaleTimeString(contact_locale.locale)}</time>
                         </div>
-                        <div className="chat-bubble">¡Hola! ¿Bienvenido te gustaría trabajar conmigo?</div>
+                        <div className="chat-bubble">{contact_locale.message1}</div>
                         <div className="chat-footer opacity-50">
-                            Delivered
+                            {contact_locale.delivered}
                         </div>
                     </div>
                     <div className={"chat chat-end " + (isVisible2 ? 'grid' : 'hidden')}>
@@ -99,12 +101,12 @@ const ContactPage: React.FC<ContactPageProps> = ({ contacts, style }) => {
                             </div>
                         </div>
                         <div className="chat-header">
-                            Yo
-                            <time className="text-xs opacity-50" suppressHydrationWarning > {time2.toLocaleTimeString('en-US')}</time>
+                            {contact_locale.recipient}
+                            <time className="text-xs opacity-50" suppressHydrationWarning > {time2.toLocaleTimeString(contact_locale.locale)}</time>
                         </div>
-                        <div className="chat-bubble">¡Por supuesto! ¿Cómo te contacto?</div>
+                        <div className="chat-bubble">{contact_locale.message2}</div>
                         <div className="chat-footer opacity-50" suppressHydrationWarning>
-                            Seen at {time2.toLocaleTimeString('en-US')}
+                            {contact_locale.seen_at} {time2.toLocaleTimeString(contact_locale.locale)}
                         </div>
                     </div>
                     
@@ -122,12 +124,12 @@ const ContactPage: React.FC<ContactPageProps> = ({ contacts, style }) => {
                             </div>
                         </div>
                         <div className="chat-header">
-                            Yo
-                            <time className="text-xs opacity-50" suppressHydrationWarning > {time6.toLocaleTimeString('en-US')}</time>
+                            {contact_locale.recipient}
+                            <time className="text-xs opacity-50" suppressHydrationWarning > {time6.toLocaleTimeString(contact_locale.locale)}</time>
                         </div>
-                        <div className="chat-bubble">¡Muchas gracias!</div>
+                        <div className="chat-bubble">{contact_locale.message3}</div>
                         <div className="chat-footer opacity-50" suppressHydrationWarning>
-                            Seen at {time6.toLocaleTimeString('en-US')}
+                            {contact_locale.seen_at} {time6.toLocaleTimeString(contact_locale.locale)}
                         </div>
                     </div>
                 </div>

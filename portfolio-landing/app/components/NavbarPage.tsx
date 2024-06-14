@@ -26,7 +26,11 @@ const NavbarPage = () => {
                   <li><Link href="#courses" className="mx-2">{data.courses}</Link></li>
                 </ul>
               </div>
-              <h1 className="text-xl font-bold pl-5">{data.name}</h1>
+              <h1 className="text-xl font-bold pl-5 mr-2">{data.name}</h1>
+              <select className="select select-bordered w-fit max-w-xs hidden">
+                <option>es</option>
+                <option>en</option>
+              </select>
             </div>
             <div className="navbar-end hidden lg:flex">
               <ul className="menu menu-horizontal">
