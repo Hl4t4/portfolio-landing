@@ -56,7 +56,34 @@
                 "name": "Sistema de Gestión de Dryfrut",
                 "github": "PRIVATE",
                 "url": "PRIVATE",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp", "screenshot-3.webp", "screenshot-4.webp", "screenshot-5.webp"],
+                "thumbnail_width": 2445,
+                "thumbnail_height": 896,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-5.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2018,
                 "description": "Sistema de gestión de compra, procesamiento, cambio, embalaje y exportación de frutos secos que busca centralizar toda la información de la empresa.",
                 "tags": [
@@ -69,7 +96,19 @@
                 "name": "Desafio Latam - Ricomida",
                 "github": "https://github.com/Hl4t4/test-html-bootstrap-jquery-01",
                 "url": "https://hl4t4.github.io/test-html-bootstrap-jquery-01/",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp"],
+                "thumbnail_width": 1312,
+                "thumbnail_height": 919,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2024,
                 "description": "Landing page para una pizzeria, usando elementos interactivos y reactivos.",
                 "tags": [
@@ -82,7 +121,19 @@
                 "name": "Desafio Latam - Viajes Chile",
                 "github": "https://github.com/Hl4t4/test-viajeschile-html-bootstrap-jquery",
                 "url": "https://hl4t4.github.io/test-viajeschile-html-bootstrap-jquery/",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp"],
+                "thumbnail_width": 1369,
+                "thumbnail_height": 883,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2024,
                 "description": "Landing page para una empresa de viajes, usando elementos interactivos y reactivos.",
                 "tags": [
@@ -95,7 +146,29 @@
                 "name": "Desafio Latam - Onlyflans",
                 "github": "https://github.com/Hl4t4/desafiolatam-onlyflans",
                 "url": "https://hlata.pythonanywhere.com/",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp", "screenshot-3.webp", "screenshot-4.webp"],
+                "thumbnail_width": 2046,
+                "thumbnail_height": 888,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2024,
                 "description": "Sitio para compartir recetas de flanes entre usuarios, verificando la autentificación de usuario y sus funciones en el sitio. Montado en los servidores de Python Everywhere",
                 "tags": [
@@ -108,7 +181,39 @@
                 "name": "Desafio Latam - Inmuebles Kristen",
                 "github": "https://github.com/Hl4t4/desafiolatam-inmuebles",
                 "url": "https://www.inmuebleskristen.shop/",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp", "screenshot-3.webp", "screenshot-4.webp", "screenshot-5.webp", "screenshot-6.webp"],
+                "thumbnail_width": 1284,
+                "thumbnail_height": 753,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-5.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-6.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2024,
                 "description": "Sitio web para el arriendo de inmuebles entre arrendadores y arrendatarios, con CRUD, manejo de solicitudes de arriendo, autentificación, decorators, validators, activación de cuentas y recuperación de cuentas por correo. Montado en un servidor en linode, usando Debian como SO, ufw y linode firewall para firewalls, gunicorn para mantener el servicio funcionando, nginx como reverse proxy y web server, además de cloudfare como DNS y protección DDoS.",
                 "tags": [
@@ -121,7 +226,34 @@
                 "name": "Scrapper for roms",
                 "github": "https://github.com/Hl4t4/archive.org-roms-downloader",
                 "url": "NONE",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp", "screenshot-3.webp", "screenshot-4.webp", "screenshot-5.webp"],
+                "thumbnail_width": 799,
+                "thumbnail_height": 443,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-5.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2024,
                 "description": "Proyecto en proceso para la descarga y compresión de roms desde archive.org y otros sitios. Prontamente con GUI.",
                 "tags": [
@@ -151,6 +283,8 @@
             {
                 "id": 1,
                 "language": "Español",
+                "img_width": 1500,
+                "img_height": 1000,
                 "level": "Nativo - Chile",
                 "certification": "Idioma Nativo",
                 "certification_url": "https://es.wikipedia.org/wiki/Espa%C3%B1ol_chileno"
@@ -159,6 +293,8 @@
             {
                 "id": 2,
                 "language": "English",
+                "img_width": 1500,
+                "img_height": 750,
                 "level": "Advanced (C2)",
                 "certification": "EF SET",
                 "certification_url": "https://cert.efset.org/JqQote"
@@ -168,6 +304,8 @@
             {
                 "id": 1,
                 "name": "Responsive Web Design Certification",
+                "img_width": 1764,
+                "img_height": 214,
                 "institution": "freeCodeCamp",
                 "description": "Certificado correspondiente a un curso de web responsiva usando herramientas como bootstrap, CSS y propiedades @media", 
                 "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
@@ -179,6 +317,8 @@
                 "id": 1,
                 "type": "Linkedin",
                 "img": "linkedin.webp",
+                "img_width": 736,
+                "img_height": 88,
                 "message1": "Contactame por ",
                 "message2": "Mi cuenta es ",
                 "button": "Contactar",
@@ -191,6 +331,8 @@
                 "id": 2,
                 "type": "Email",
                 "img": "email.webp",
+                "img_width": 948,
+                "img_height": 88,
                 "message1": "Contactame por ",
                 "message2": "Mi cuenta es ",
                 "button": "Contactar",
@@ -203,6 +345,8 @@
                 "id": 3,
                 "type": "Github",
                 "img": "github.webp",
+                "img_width": 477,
+                "img_height": 88,
                 "message1": "Contactame por ",
                 "message2": "Mi cuenta es ",
                 "button": "Contactar",
@@ -271,7 +415,34 @@
                 "name": "Dryfrut's Management System",
                 "github": "PRIVATE",
                 "url": "PRIVATE",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp", "screenshot-3.webp", "screenshot-4.webp", "screenshot-5.webp"],
+                "thumbnail_width": 2445,
+                "thumbnail_height": 896,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-5.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2018,
                 "description": "Management system for buying, proccessing, exchanging, packaging and exporting dried fruits, which seeks to compile all the data from the company.",
                 "tags": [
@@ -284,7 +455,19 @@
                 "name": "Desafio Latam - Ricomida",
                 "github": "https://github.com/Hl4t4/test-html-bootstrap-jquery-01",
                 "url": "https://hl4t4.github.io/test-html-bootstrap-jquery-01/",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp"],
+                "thumbnail_width": 1312,
+                "thumbnail_height": 919,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2024,
                 "description": "Landing page for a pizzeria using interactive and reactive components.",
                 "tags": [
@@ -297,7 +480,19 @@
                 "name": "Desafio Latam - Viajes Chile",
                 "github": "https://github.com/Hl4t4/test-viajeschile-html-bootstrap-jquery",
                 "url": "https://hl4t4.github.io/test-viajeschile-html-bootstrap-jquery/",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp"],
+                "thumbnail_width": 1369,
+                "thumbnail_height": 883,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2024,
                 "description": "Landing page for a turism company using interactive and reactive components.",
                 "tags": [
@@ -310,7 +505,29 @@
                 "name": "Desafio Latam - Onlyflans",
                 "github": "https://github.com/Hl4t4/desafiolatam-onlyflans",
                 "url": "https://hlata.pythonanywhere.com/",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp", "screenshot-3.webp", "screenshot-4.webp"],
+                "thumbnail_width": 2046,
+                "thumbnail_height": 888,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2024,
                 "description": "Site about sharing recepees for flans between users. With user authentication and their respective functions in the site. Mounted in a Python Everywhere server.",
                 "tags": [
@@ -323,7 +540,39 @@
                 "name": "Desafio Latam - Inmuebles Kristen",
                 "github": "https://github.com/Hl4t4/desafiolatam-inmuebles",
                 "url": "https://www.inmuebleskristen.shop/",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp", "screenshot-3.webp", "screenshot-4.webp", "screenshot-5.webp", "screenshot-6.webp"],
+                "thumbnail_width": 1284,
+                "thumbnail_height": 753,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-5.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-6.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2024,
                 "description": "Site about renting real state, with renter and rentee users. It has a complete CRUD, it manages renting applications, authentification, validators, decorators, user activation and recovery through emails. It is mounted on a linode server, using Debian as OS, ufw and linode firewall as firewalls, gunicorn for service uptime, nginx as reverse proxy and webserver and cloudfare as DNS and DDoS protection.",
                 "tags": [
@@ -336,7 +585,34 @@
                 "name": "Scrapper for roms",
                 "github": "https://github.com/Hl4t4/archive.org-roms-downloader",
                 "url": "NONE",
-                "screenshots": ["screenshot-1.webp", "screenshot-2.webp", "screenshot-3.webp", "screenshot-4.webp", "screenshot-5.webp"],
+                "thumbnail_width": 799,
+                "thumbnail_height": 443,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-5.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
                 "year": 2024,
                 "description": "Project in progress to download and compress roms from archive.org and other sites. Coming soon a GUI.",
                 "tags": [
@@ -366,6 +642,8 @@
             {
                 "id": 1,
                 "language": "Español",
+                "img_width": 1500,
+                "img_height": 1000,
                 "level": "Native - Chile",
                 "certification": "Native Language",
                 "certification_url": "https://en.wikipedia.org/wiki/Chilean_Spanish"
@@ -373,6 +651,8 @@
             {
                 "id": 2,
                 "language": "English",
+                "img_width": 1500,
+                "img_height": 750,
                 "level": "Advanced (C2)",
                 "certification": "EF SET",
                 "certification_url": "https://cert.efset.org/JqQote"
@@ -382,6 +662,8 @@
             {
                 "id": 1,
                 "name": "Responsive Web Design Certification",
+                "img_width": 1764,
+                "img_height": 214,
                 "institution": "freeCodeCamp",
                 "description": "Certificate related to a responsive web design using tools such as bootstrap, CSS and @media properties", 
                 "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
@@ -393,6 +675,8 @@
                 "id": 1,
                 "type": "Email",
                 "img": "email.webp",
+                "img_width": 948,
+                "img_height": 88,
                 "message1": "Contact me through ",
                 "message2": "My account is ",
                 "button": "Contact",
@@ -405,6 +689,8 @@
                 "id": 2,
                 "type": "Linkedin",
                 "img": "linkedin.webp",
+                "img_width": 736,
+                "img_height": 88,
                 "message1": "Contact me through ",
                 "message2": "My account is ",
                 "button": "Contact",
@@ -417,6 +703,8 @@
                 "id": 3,
                 "type": "Github",
                 "img": "github.webp",
+                "img_width": 477,
+                "img_height": 88,
                 "message1": "Contact me through ",
                 "message2": "My account is ",
                 "button": "Contact",

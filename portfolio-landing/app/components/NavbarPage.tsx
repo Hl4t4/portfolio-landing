@@ -1,12 +1,58 @@
+'use client'
 import React from 'react'
+import { useState, useContext } from 'react';
+import { LocaleContext } from './context';
 import Link from 'next/link';
-import { getNavbarContentData } from '../lib/fetchContent';
+import { unstable_noStore as noStore } from 'next/cache'
+// import { getNavbarContentData } from '../lib/fetchContent';
+// import { navbarData } from '../page'
 import { Navbar } from '../interfaces/Navbar';
 import { NavbarRoot } from '../interfaces/NavbarRoot';
 
-const NavbarPage = () => {
-    const root: NavbarRoot = getNavbarContentData('navbar_data.json')
-    const data: Navbar = root.es
+interface NavbarPageProps {
+  navbarData: NavbarRoot;
+}
+
+const NavbarPage: React.FC<NavbarPageProps> = ({navbarData}) => {
+    const root: NavbarRoot = navbarData
+    // const [root, setSelectedRoot] = useState<NavbarRoot | null>(null)
+    const {locale, setLocale} = useContext(LocaleContext)
+    const [data, setSelectedData] = useState<Navbar | null>(root[locale])
+
+    // if (locale) {
+    //   setSelectedData(root[locale])
+    // }
+    // const [locale_value, setLocaleValue] = useState<string | undefined >(process.env.LOCALE)
+
+    // const [isLoading, setLoading] = useState(true);
+    // useEffect(() => {
+    //   fetch('../../data/navbar_data.json')
+    //   .then((res) => res.json())
+    //   .then((jsonData) => 
+    //     { setSelectedRoot(jsonData)
+    //       setLoading(false);
+    //     })
+    //   .then(() => { if(root != null) setSelectedData(root.es) })
+    // }, [])
+
+    // if (isLoading) return <p>Loading...</p>;
+    if (!data) return <p>No data available</p>;
+    // const root: NavbarRoot = getNavbarContentData('navbar_data.json')
+    // const root: NavbarRoot = fetch('../data/navbar_data.json').then((res) => res.json()).then((jsonData) => {})
+    // const data: Navbar = root.es
+    noStore()
+    // let locale_value = 
+
+    // const [selectedLocale, setSelectedLocale] = useState('es')
+    const handleLocaleChange = (event:React.ChangeEvent<HTMLSelectElement>) => {
+      setLocale(event.target.value);
+      setSelectedData(root[event.target.value]);
+      // setSelectedLocale(event.target.value);
+      
+      // process.env.LOCALE = locale
+      // if (event.target.value == 'en') { setSelectedData(root[event.target.value]) }
+      // locale_value = selectedLocale;
+    };
 
     return (
         <header className="bg-secondary-content text-secondary py-4">
@@ -27,7 +73,7 @@ const NavbarPage = () => {
                 </ul>
               </div>
               <h1 className="text-xl font-bold pl-5 mr-2">{data.name}</h1>
-              <select className="select select-bordered w-fit max-w-xs hidden">
+              <select className="select select-bordered w-fit max-w-xs" value={locale} onChange={handleLocaleChange}>
                 <option>es</option>
                 <option>en</option>
               </select>

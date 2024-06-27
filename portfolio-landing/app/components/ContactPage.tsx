@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { Contact } from '../interfaces/Contact';
 import ContactItem from './ContactItem';
 import { ContactLocale } from '../interfaces/ContactLocale';
+import profilePic from '../../public/img/self.webp'
+import otherPic from '../../public/img/other.webp'
 
 interface ContactPageProps {
     contacts: Contact[];
@@ -83,7 +85,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ contacts, contact_locale, sty
                     <div className={"chat chat-start " + (isVisible1 ? 'grid' : 'hidden')}>
                         <div className="chat-image avatar">
                             <div className="w-10 rounded-full">
-                                <Image alt="Imagen de perfil" src="/img/self.webp" />
+                                <Image alt="Imagen de perfil" src={profilePic} />
                             </div>
                         </div>
                         <div className="chat-header">
@@ -98,7 +100,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ contacts, contact_locale, sty
                     <div className={"chat chat-end " + (isVisible2 ? 'grid' : 'hidden')}>
                         <div className="chat-image avatar">
                             <div className="w-10 rounded-full">
-                                <Image alt="Tailwind CSS chat bubble component" src="/img/other.webp" />
+                                <Image alt="Tailwind CSS chat bubble component" src={otherPic} />
                             </div>
                         </div>
                         <div className="chat-header">
@@ -121,7 +123,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ contacts, contact_locale, sty
                     <div className={"chat chat-end " + (isVisible6 ? 'grid' : 'hidden')}>
                         <div className="chat-image avatar">
                             <div className="w-10 rounded-full">
-                                <Image alt="Tailwind CSS chat bubble component" src="/img/other.webp" />
+                                <Image alt="Tailwind CSS chat bubble component" src={otherPic} />
                             </div>
                         </div>
                         <div className="chat-header">

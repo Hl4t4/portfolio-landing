@@ -20,7 +20,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project, length }) => {
                     <div className="carousel relative w-full rounded-box snap-x scroll-smooth overflow-hidden">
                         {project.screenshots.map((screenshot, index) => (
                             <div key={'project-' + project.id + '-screenshot-' + (index + 1 )} id={'project-' + project.id + '-screenshot-' + (index + 1 )} className="carousel-item flex relative justify-center snap-center max-h-[550px] w-full rounded mx-0 -z-1">
-                                <figure><Image src={"/img/screenshots/" + project.folder + "/" + screenshot} alt={project.folder + '-' + screenshot} className="max-w-full py-5 -z-1 " /></figure>
+                                <figure><Image src={"/img/screenshots/" + project.folder + "/" + screenshot.img} width={screenshot.img_width} height={screenshot.img_height} alt={project.folder + '-' + screenshot.img} className="max-w-full py-5 -z-1 " /></figure>
                             </div>
                         ))}
                     </div>

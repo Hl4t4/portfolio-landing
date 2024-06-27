@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
+import profilePic from '../../public/img/self.webp'
 import { Contact } from '../interfaces/Contact';
 
 interface ContactItemProps {
@@ -13,7 +14,7 @@ const ContactItem: React.FC<ContactItemProps> = ({ contact, time }) => {
     <div className="chat chat-start">
         <div className="chat-image avatar">
             <div className="w-10 rounded-full">
-                <Image alt="Imagen de perfil" src="/img/self.webp" />
+                <Image alt="Imagen de perfil" src={profilePic} />
             </div>
         </div>
         <div className="chat-header">
@@ -22,7 +23,7 @@ const ContactItem: React.FC<ContactItemProps> = ({ contact, time }) => {
         </div>
         <div className="chat-bubble min-w-fit">
             <div className="card bg-base-100 shadow-xl pt-3">
-            <a href={contact.url}><figure><Image src={'/img/badges/' + contact.img} alt={contact.type}/>
+            <a href={contact.url}><figure><Image src={'/img/badges/' + contact.img} width={contact.img_width} height={contact.img_height} alt={contact.type}/>
             </figure></a>
                 <div className="card-body">
                     <h2 className="card-title">{contact.message1}{contact.type}</h2>

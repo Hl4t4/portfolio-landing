@@ -12,7 +12,7 @@ const ProjectThumbnail: React.FC<ProjectThumbnailProps> = ({ project }) => {
             <div className="carousel-item  relative snap-center">
                 <a href={"#project-" + project.id}>
                     <div className='card max-w-lg h-64 image-full shadow-xl m-3'>
-                        <figure><Image src={"/img/thumbnails/" + project.folder + "/thumbnail.webp"} alt={project.name} className="w-full" /></figure>
+                        <figure><Image src={"/img/thumbnails/" + project.folder + "/thumbnail.webp"} width={project.thumbnail_width} height={project.thumbnail_height} alt={project.name} className="w-full" /></figure>
                         <div className='card-body items-center text-center'>
                             <div className='card-title'>{project.name}</div>
                             <div className="card-actions justify-center">

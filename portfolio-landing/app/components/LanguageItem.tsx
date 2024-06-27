@@ -11,7 +11,7 @@ const LanguageItem: React.FC<LanguageItemProps> = ({ language }) => {
         <div className='stat'>
             <div className='stat-figure'>
                 <div className='rounded-full'>
-                    <figure><Image src={"/img/flags/flag-" +language.id+".webp"} alt={language.language} className="max-w-32" /></figure>
+                    <figure><Image src={"/img/flags/flag-" +language.id+".webp"} width={language.img_width} height={language.img_height} alt={language.language} className="max-w-32" /></figure>
                 </div>
             </div>
             <h2 className='stat-title text-3xl'>{language.language}</h2>

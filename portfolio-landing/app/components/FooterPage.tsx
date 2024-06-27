@@ -1,11 +1,20 @@
+'use client'
 import React from 'react'
-import { getFooterContentData } from '../lib/fetchContent';
+// import { getFooterContentData } from '../lib/fetchContent';
+import { useContext } from 'react';
+import { LocaleContext } from './context';
 import { Footer } from '../interfaces/Footer';
 import { FooterRoot } from '../interfaces/FooterRoot';
 
-const FooterPage = () => {
-    const root: FooterRoot = getFooterContentData('footer_data.json')
-    const data: Footer = root.es
+interface FooterPageProps {
+    footerData: FooterRoot;
+  }
+
+const FooterPage: React.FC<FooterPageProps> = ({footerData}) => {
+    const root: FooterRoot = footerData
+    const {locale, setLocale} = useContext(LocaleContext)
+    const data: Footer = root[locale]
+    
 
     return (
         <footer className="footer px-10 py-4 bg-secondary-content text-secondary">

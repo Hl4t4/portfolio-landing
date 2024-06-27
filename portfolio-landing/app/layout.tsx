@@ -3,6 +3,10 @@ import NavbarPage from './components/NavbarPage';
 import FooterPage from './components/FooterPage';
 import { Inter } from "next/font/google";
 import "./globals.css";
+import LocaleProvider from "./components/provider";
+import { getNavbarContentData, getFooterContentData } from './lib/fetchContent';
+import { NavbarRoot } from './interfaces/NavbarRoot';
+import { FooterRoot } from './interfaces/FooterRoot';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,16 +20,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const navbarData: NavbarRoot = getNavbarContentData('navbar_data.json')
+  const footerData: FooterRoot = getFooterContentData('footer_data.json')
+
   return (
-    <html lang="en" data-theme="forest">
-      <body className={inter.className + " m-0 p-0"}>
-        <NavbarPage></NavbarPage>
-        <div>
-          {children}
-        </div>
-        <FooterPage></FooterPage>
-      </body>
-    </html>
+    <LocaleProvider>
+      <html lang="en" data-theme="forest">
+        <body className={inter.className + " m-0 p-0"}>
+          <NavbarPage navbarData={navbarData}></NavbarPage>
+          <div>
+            {children}
+          </div>
+          <FooterPage footerData={footerData}></FooterPage>
+        </body>
+      </html>
+    </LocaleProvider>
   );
 }
 
