@@ -8,7 +8,6 @@ interface LocaleProviderProps {
 }
 
 const LocaleProvider: React.FC<LocaleProviderProps> = ({children}) => {
-// export default function LocaleProvider ({children}) {
     const [locale, setLocale] = useState<string>('es')
 
     return (
