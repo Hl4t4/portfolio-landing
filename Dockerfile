@@ -10,8 +10,8 @@ RUN npm install --global pm2
 # Utilise Docker cache to save re-installing dependencies if unchanged
 COPY ./portfolio-landing/package*.json ./
 
-# Install dependencies
-RUN npm install --production
+# Install dependencies --omit=dev
+RUN npm install 
 
 # Copy all files
 COPY ./portfolio-landing/ ./
