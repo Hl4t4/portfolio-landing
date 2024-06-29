@@ -52,131 +52,6 @@
         "projects": [
             {
                 "id": 1,
-                "folder": "sg-dryfrut",
-                "name": "Sistema de Gestión de Dryfrut",
-                "github": "PRIVATE",
-                "url": "PRIVATE",
-                "thumbnail_width": 2445,
-                "thumbnail_height": 896,
-                "screenshots": [
-                    {
-                        "img": "screenshot-1.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-2.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-3.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-4.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-5.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    }],
-                "year": 2018,
-                "description": "Sistema de gestión de compra, procesamiento, cambio, embalaje y exportación de frutos secos que busca centralizar toda la información de la empresa.",
-                "tags": [
-                    "VueJS", "Vuetify", "Javascript", "NodeJS", "MongoDB", "Mongoose"
-                ]
-            },
-            {
-                "id": 2,
-                "folder": "ricomida",
-                "name": "Desafio Latam - Ricomida",
-                "github": "https://github.com/Hl4t4/test-html-bootstrap-jquery-01",
-                "url": "https://hl4t4.github.io/test-html-bootstrap-jquery-01/",
-                "thumbnail_width": 1312,
-                "thumbnail_height": 919,
-                "screenshots": [
-                    {
-                        "img": "screenshot-1.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-2.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    }],
-                "year": 2024,
-                "description": "Landing page para una pizzeria, usando elementos interactivos y reactivos.",
-                "tags": [
-                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
-                ]
-            },
-            {
-                "id": 3,
-                "folder": "viajes-chile",
-                "name": "Desafio Latam - Viajes Chile",
-                "github": "https://github.com/Hl4t4/test-viajeschile-html-bootstrap-jquery",
-                "url": "https://hl4t4.github.io/test-viajeschile-html-bootstrap-jquery/",
-                "thumbnail_width": 1369,
-                "thumbnail_height": 883,
-                "screenshots": [
-                    {
-                        "img": "screenshot-1.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-2.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    }],
-                "year": 2024,
-                "description": "Landing page para una empresa de viajes, usando elementos interactivos y reactivos.",
-                "tags": [
-                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
-                ]
-            },
-            {
-                "id": 4,
-                "folder": "onlyflans",
-                "name": "Desafio Latam - Onlyflans",
-                "github": "https://github.com/Hl4t4/desafiolatam-onlyflans",
-                "url": "https://hlata.pythonanywhere.com/",
-                "thumbnail_width": 2046,
-                "thumbnail_height": 888,
-                "screenshots": [
-                    {
-                        "img": "screenshot-1.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-2.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-3.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-4.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    }],
-                "year": 2024,
-                "description": "Sitio para compartir recetas de flanes entre usuarios, verificando la autentificación de usuario y sus funciones en el sitio. Montado en los servidores de Python Everywhere",
-                "tags": [
-                    "Django", "Python", "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
-                ]
-            },
-            {
-                "id": 5,
                 "folder": "inmuebles-kristen",
                 "name": "Desafio Latam - Inmuebles Kristen",
                 "github": "https://github.com/Hl4t4/desafiolatam-inmuebles",
@@ -221,7 +96,42 @@
                 ]
             },
             {
-                "id": 6,
+                "id": 2,
+                "folder": "onlyflans",
+                "name": "Desafio Latam - Onlyflans",
+                "github": "https://github.com/Hl4t4/desafiolatam-onlyflans",
+                "url": "https://hlata.pythonanywhere.com/",
+                "thumbnail_width": 2046,
+                "thumbnail_height": 888,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
+                "year": 2024,
+                "description": "Sitio para compartir recetas de flanes entre usuarios, verificando la autentificación de usuario y sus funciones en el sitio. Montado en los servidores de Python Everywhere",
+                "tags": [
+                    "Django", "Python", "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
+                ]
+            },
+            {
+                "id": 3,
                 "folder": "rom-scrapper",
                 "name": "Scrapper for roms",
                 "github": "https://github.com/Hl4t4/archive.org-roms-downloader",
@@ -258,6 +168,96 @@
                 "description": "Proyecto en proceso para la descarga y compresión de roms desde archive.org y otros sitios. Prontamente con GUI.",
                 "tags": [
                     "Python", "CHDMAN"
+                ]
+            },
+            {
+                "id": 4,
+                "folder": "sg-dryfrut",
+                "name": "Sistema de Gestión de Dryfrut",
+                "github": "PRIVATE",
+                "url": "PRIVATE",
+                "thumbnail_width": 2445,
+                "thumbnail_height": 896,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-5.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
+                "year": 2018,
+                "description": "Sistema de gestión de compra, procesamiento, cambio, embalaje y exportación de frutos secos que busca centralizar toda la información de la empresa.",
+                "tags": [
+                    "VueJS", "Vuetify", "Javascript", "NodeJS", "MongoDB", "Mongoose"
+                ]
+            },
+            {
+                "id": 5,
+                "folder": "ricomida",
+                "name": "Desafio Latam - Ricomida",
+                "github": "https://github.com/Hl4t4/test-html-bootstrap-jquery-01",
+                "url": "https://hl4t4.github.io/test-html-bootstrap-jquery-01/",
+                "thumbnail_width": 1312,
+                "thumbnail_height": 919,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
+                "year": 2024,
+                "description": "Landing page para una pizzeria, usando elementos interactivos y reactivos.",
+                "tags": [
+                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
+                ]
+            },
+            {
+                "id": 6,
+                "folder": "viajes-chile",
+                "name": "Desafio Latam - Viajes Chile",
+                "github": "https://github.com/Hl4t4/test-viajeschile-html-bootstrap-jquery",
+                "url": "https://hl4t4.github.io/test-viajeschile-html-bootstrap-jquery/",
+                "thumbnail_width": 1369,
+                "thumbnail_height": 883,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
+                "year": 2024,
+                "description": "Landing page para una empresa de viajes, usando elementos interactivos y reactivos.",
+                "tags": [
+                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
                 ]
             }
         ],
@@ -409,133 +409,10 @@
             }
         ],
         "projects": [
+            
+            
             {
                 "id": 1,
-                "folder": "sg-dryfrut",
-                "name": "Dryfrut's Management System",
-                "github": "PRIVATE",
-                "url": "PRIVATE",
-                "thumbnail_width": 2445,
-                "thumbnail_height": 896,
-                "screenshots": [
-                    {
-                        "img": "screenshot-1.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-2.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-3.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-4.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-5.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    }],
-                "year": 2018,
-                "description": "Management system for buying, proccessing, exchanging, packaging and exporting dried fruits, which seeks to compile all the data from the company.",
-                "tags": [
-                    "VueJS", "Vuetify", "Javascript", "NodeJS", "MongoDB", "Mongoose"
-                ]
-            },
-            {
-                "id": 2,
-                "folder": "ricomida",
-                "name": "Desafio Latam - Ricomida",
-                "github": "https://github.com/Hl4t4/test-html-bootstrap-jquery-01",
-                "url": "https://hl4t4.github.io/test-html-bootstrap-jquery-01/",
-                "thumbnail_width": 1312,
-                "thumbnail_height": 919,
-                "screenshots": [
-                    {
-                        "img": "screenshot-1.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-2.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    }],
-                "year": 2024,
-                "description": "Landing page for a pizzeria using interactive and reactive components.",
-                "tags": [
-                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
-                ]
-            },
-            {
-                "id": 3,
-                "folder": "viajes-chile",
-                "name": "Desafio Latam - Viajes Chile",
-                "github": "https://github.com/Hl4t4/test-viajeschile-html-bootstrap-jquery",
-                "url": "https://hl4t4.github.io/test-viajeschile-html-bootstrap-jquery/",
-                "thumbnail_width": 1369,
-                "thumbnail_height": 883,
-                "screenshots": [
-                    {
-                        "img": "screenshot-1.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-2.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    }],
-                "year": 2024,
-                "description": "Landing page for a turism company using interactive and reactive components.",
-                "tags": [
-                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
-                ]
-            },
-            {
-                "id": 4,
-                "folder": "onlyflans",
-                "name": "Desafio Latam - Onlyflans",
-                "github": "https://github.com/Hl4t4/desafiolatam-onlyflans",
-                "url": "https://hlata.pythonanywhere.com/",
-                "thumbnail_width": 2046,
-                "thumbnail_height": 888,
-                "screenshots": [
-                    {
-                        "img": "screenshot-1.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-2.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-3.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    },
-                    {
-                        "img": "screenshot-4.webp",
-                        "img_width": 1600,
-                        "img_height": 900
-                    }],
-                "year": 2024,
-                "description": "Site about sharing recepees for flans between users. With user authentication and their respective functions in the site. Mounted in a Python Everywhere server.",
-                "tags": [
-                    "Django", "Python", "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
-                ]
-            },
-            {
-                "id": 5,
                 "folder": "inmuebles-kristen",
                 "name": "Desafio Latam - Inmuebles Kristen",
                 "github": "https://github.com/Hl4t4/desafiolatam-inmuebles",
@@ -580,7 +457,42 @@
                 ]
             },
             {
-                "id": 6,
+                "id": 2,
+                "folder": "onlyflans",
+                "name": "Desafio Latam - Onlyflans",
+                "github": "https://github.com/Hl4t4/desafiolatam-onlyflans",
+                "url": "https://hlata.pythonanywhere.com/",
+                "thumbnail_width": 2046,
+                "thumbnail_height": 888,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
+                "year": 2024,
+                "description": "Site about sharing recepees for flans between users. With user authentication and their respective functions in the site. Mounted in a Python Everywhere server.",
+                "tags": [
+                    "Django", "Python", "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
+                ]
+            },
+            {
+                "id": 3,
                 "folder":"rom-scrapper",
                 "name": "Scrapper for roms",
                 "github": "https://github.com/Hl4t4/archive.org-roms-downloader",
@@ -617,6 +529,96 @@
                 "description": "Project in progress to download and compress roms from archive.org and other sites. Coming soon a GUI.",
                 "tags": [
                     "Python", "CHDMAN"
+                ]
+            },
+            {
+                "id": 4,
+                "folder": "sg-dryfrut",
+                "name": "Dryfrut's Management System",
+                "github": "PRIVATE",
+                "url": "PRIVATE",
+                "thumbnail_width": 2445,
+                "thumbnail_height": 896,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-3.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-4.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-5.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
+                "year": 2018,
+                "description": "Management system for buying, proccessing, exchanging, packaging and exporting dried fruits, which seeks to compile all the data from the company.",
+                "tags": [
+                    "VueJS", "Vuetify", "Javascript", "NodeJS", "MongoDB", "Mongoose"
+                ]
+            },
+            {
+                "id": 5,
+                "folder": "ricomida",
+                "name": "Desafio Latam - Ricomida",
+                "github": "https://github.com/Hl4t4/test-html-bootstrap-jquery-01",
+                "url": "https://hl4t4.github.io/test-html-bootstrap-jquery-01/",
+                "thumbnail_width": 1312,
+                "thumbnail_height": 919,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
+                "year": 2024,
+                "description": "Landing page for a pizzeria using interactive and reactive components.",
+                "tags": [
+                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
+                ]
+            },
+            {
+                "id": 6,
+                "folder": "viajes-chile",
+                "name": "Desafio Latam - Viajes Chile",
+                "github": "https://github.com/Hl4t4/test-viajeschile-html-bootstrap-jquery",
+                "url": "https://hl4t4.github.io/test-viajeschile-html-bootstrap-jquery/",
+                "thumbnail_width": 1369,
+                "thumbnail_height": 883,
+                "screenshots": [
+                    {
+                        "img": "screenshot-1.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    },
+                    {
+                        "img": "screenshot-2.webp",
+                        "img_width": 1600,
+                        "img_height": 900
+                    }],
+                "year": 2024,
+                "description": "Landing page for a turism company using interactive and reactive components.",
+                "tags": [
+                    "HTML", "CSS", "JQuery", "Bootstrap", "Javascript"
                 ]
             }
         ],
